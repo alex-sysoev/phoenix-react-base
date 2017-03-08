@@ -1,0 +1,25 @@
+.header {
+	button { padding: 10px 15px; }
+
+	.nav-pills > li > a { 
+		&.btn-success:hover, &.btn-success:focus { background-color: #4cae4c; } 
+		&.btn-primary:hover, &.btn-primary:focus { background-color: #2e6da4; } 
+	}
+}
+
+.conversation-panel {
+	.conv-body.panel-body { height: 600px; overflow-y: scroll; }
+}
+
+.has-error {
+	.select2-container, .select2-container:focus {
+		.select2-selection { border-color: #a94442 }
+	}
+}
+
+
+.has-success {
+	.select2-container, .select2-container:focus {
+		.select2-selection { border-color: #3c763d }
+	}
+}
